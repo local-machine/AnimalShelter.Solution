@@ -2943,6 +2943,11 @@
   "RootNamespace": "AnimalShelter",
   "Documents": [
     {
+      "FilePath": "Views/Animals/NameSort.cshtml",
+      "TargetPath": "Views/Animals/NameSort.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Animals/AllNames.cshtml",
       "TargetPath": "Views/Animals/AllNames.cshtml",
       "FileKind": "mvc"

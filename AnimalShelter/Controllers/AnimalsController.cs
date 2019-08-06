@@ -3,6 +3,7 @@ using AnimalShelter.Models;
 using System.Collections.Generic;
 using System.Linq;
 
+
 namespace AnimalShelter.Controllers
 {
     public class AnimalsController : Controller
@@ -41,6 +42,18 @@ namespace AnimalShelter.Controllers
         {
             List<Animal> model = _db.Animals.Where(animals => animals.Type.Contains(type)).ToList();
             return View(model);
+        }
+
+        public ActionResult AdmitSort()
+        {
+            List<Animal> model = _db.Animals.OrderBy(animal => animal.AdmitDate).ToList();
+             return View("Index", model);
+        }
+
+        public ActionResult NameSort()
+        {
+            List<Animal> model = _db.Animals.OrderBy(animal => animal.Name).ToList();
+             return View(model);
         }
     }
 }

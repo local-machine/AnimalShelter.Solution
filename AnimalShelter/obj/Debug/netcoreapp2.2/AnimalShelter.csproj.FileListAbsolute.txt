@@ -26,3 +26,4 @@
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/AnimalShelter.dll
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/AnimalShelter.pdb
 /Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/AnimalShelter.csproj.CopyComplete
+/Users/Guest/Desktop/AnimalShelter.Solution/AnimalShelter/obj/Debug/netcoreapp2.2/Razor/Views/Animals/NameSort.g.cshtml.cs
