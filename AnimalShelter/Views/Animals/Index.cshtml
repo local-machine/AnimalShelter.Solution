@@ -1,3 +1,4 @@
+
 @{
   Layout = "_Layout";
 }
@@ -10,7 +11,7 @@
 <ul>
   @foreach(Animal animal in Model)
   {
-      <li>@Html.ActionLink($"{animal.Type}","Details", new { id = animal.AnimalId })</li>
+      <li>@Html.ActionLink($"{animal.Type}","AllNames", new { type = animal.Type })</li>
   }
 </ul>
 
